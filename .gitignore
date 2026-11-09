@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+build/
+out/
+
+# secrets: never commit these
+.env
+.env*.local
+service-account-key.json
+*-service-account*.json
+
+# deployment
+.vercel/
+.netlify/
+
+# misc
+.DS_Store
+*.log
